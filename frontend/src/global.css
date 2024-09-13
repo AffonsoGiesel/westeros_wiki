@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .list-item {
+    margin-bottom: 8px;
+  }
+  
+  .icon-toggle {
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .kingdom-name {
+    font-weight: bold;
+    text-decoration: underline;
+    color: blue;
+  }
+  
+  .person-name {
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+  }
+  
+  .location-name {
+    font-weight: bold;
+    text-decoration: underline;
+    color: green;
+  }
+  
+  .list-item p {
+    margin: 0;
+  }
+  

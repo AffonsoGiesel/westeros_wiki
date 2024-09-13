@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: affonso 
+  password: senha
+  host: localhost
+
+development:
+  <<: *default
+  database: westeros_wiki_development
+
+test:
+  <<: *default
+  database: westeros_wiki_test
+
+production:
+  <<: *default
+  database: westeros_wiki_production
+  username: westeros_user
+  password: <%= ENV['WESTEROS_DATABASE_PASSWORD'] %>
