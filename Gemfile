@@ -40,7 +40,7 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 
   gem 'devise'
-  gem 'rspec-rails', '~> 5.0.0'
+  gem 'rspec-rails', '~> 7.0.1'
   gem 'jbuilder', '~> 2.7'
   gem 'devise-jwt'
   gem 'rack-cors'
