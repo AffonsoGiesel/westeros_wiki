@@ -41,7 +41,7 @@ group :development, :test do
 
   gem 'devise'
   gem 'rspec-rails', '~> 5.0.0'
-  gem 'jbuilder', '~> 2.7'
+  gem 'jbuilder', '~> 2.13'
   gem 'devise-jwt'
   gem 'rack-cors'
   gem 'dotenv-rails'
